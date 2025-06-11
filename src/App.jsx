@@ -15,6 +15,7 @@ import Login from './components/Auth/Login.jsx';
 import Signup from './components/Auth/Signup.jsx';
 import Profile from './components/Auth/Profile.jsx';
 import AdminDashboard from './components/Admin/AdminDashboard.jsx';
+import Footer from './components/Footer.jsx';
 import { debounce } from './utils/debounce.js';
 import './index.css';
 import { Heart, ShoppingCart, Star, Trash2, Plus, Minus, 
@@ -538,6 +539,7 @@ const [products, setProducts] = useState([
                     />
                   </div>
                 }
+
               />
               <Route path="summary" element={<CartSummary cart={cart} placeOrder={placeOrder} />} />
             </Route>
@@ -549,8 +551,10 @@ const [products, setProducts] = useState([
             <Route path="/signup" element={<Signup setUser={setUser} />} />
             <Route path="/profile" element={<Profile user={user} setUser={setUser} />} />
             <Route path="/admin" element={<AdminDashboard user={user} products={safeProducts} setProducts={setProducts} />} />
+            <Route path="*" element={<div className="text-center text-gray-600 mt-20">Page not found</div>} />
           </Routes>
         </div>
+        <Footer />
         <ToastContainer position="bottom-right" autoClose={3000} />
       </div>
     </ErrorBoundary>
