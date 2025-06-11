@@ -192,18 +192,23 @@ The project is structured as follows:
 
 ## Screenshots
 - Home Page
+  
 [![Home.png](https://i.postimg.cc/5yv1zNYv/Home.png)](https://postimg.cc/wR6S8zkT)
 
 - Cart Page
+  
 [![Cart.png](https://i.postimg.cc/mD1Gx2Sq/Cart.png)](https://postimg.cc/JD8FZ8vc)
 
 - Wishlist Page
+  
 [![wish.png](https://i.postimg.cc/6qsxBJjQ/wish.png)](https://postimg.cc/JDQ2QgWw)
 
 - Profile
+  
 [![Profile.png](https://i.postimg.cc/d0Xz9cK9/Profile.png)](https://postimg.cc/p9fG27r9)
 
 - Admin Dashboard
+  
 [![Admin-dash.png](https://i.postimg.cc/h4VHVYZ9/Admin-dash.png)](https://postimg.cc/QVx43f3t)
 
 
